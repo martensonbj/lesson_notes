@@ -429,4 +429,4 @@ canvas.addEventListener('click', function (event) {
   - Get the blocks to move back up to the top of the canvas when they hit the bottom. (hint: use negative coordinates)
   - Stop the blocks from falling below the canvas edge
   - Can you make a block land on another block?
-  - What about listening for other (events)[https://developer.mozilla.org/en-US/docs/Web/Events] like keyup, keydown, mouseover, mousemove, or dblclick?
+  - What about listening for other [events](https://developer.mozilla.org/en-US/docs/Web/Events) like keyup, keydown, mouseover, mousemove, or dblclick?
