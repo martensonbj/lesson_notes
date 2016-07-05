@@ -1,0 +1,11 @@
+html {
+  background-color: teal;
+}
+
+canvas {
+  background-color: lightsalmon;
+  margin-top: 5%;
+  margin-left: 40%;
+  box-shadow: 1px 1px 50px white;
+  border-radius: 10px;
+}
