@@ -407,7 +407,8 @@ In English, we want to add an event listener to the canvas so that on a click ev
 
 ```
 canvas.addEventListener('click', function (event) {
-  console.log('NEW KIDS LYRIC', getClickPosition(event));
+  var click = getClickPosition(event);
+  console.log(click);
 });
 ```
 
