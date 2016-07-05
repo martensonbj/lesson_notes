@@ -1,14 +1,3 @@
-/*
-
-!!!!!!!!!!!!! MAKE SURE ALL CODE IN CODEPEN MATCHES CODE HERE !!!!!!!!!!!!!!!!!!!!!!
-
-TO DO:
-  - Figure out the helpers.js file from lesson plan on click event section.
-  - Slide Deck?
-  - If no slide deck get rid of comments/add giphys
-
-
-
 # HTML5 Canvas and Object Oriented JavaScript
 ##### AKA Microsoft Paint for Cool Kids
 
@@ -34,7 +23,7 @@ HTML hands us the convenient `<canvas>` tag that we can plop into our HTML page 
 
 Note that although the `<canvas>` element can be sized using CSS, this is one of the rare occasions inline styling is preferred to avoid any unexpected changes down the road. During rendering, the image drawn by JS is scaled to fit the layout of the page and will respect the ratio of canvas.
 
-Canvas is still relatively new. To accomodate for accessiblilty and deprecated browsers (although if you're currently working with IE you should probably rethink your life decisions) its important to include fallback content. Without fallback content users will see a blank screen with no additional information, which is no fun.
+Canvas is still relatively new. To accommodate for accessiblilty and deprecated browsers (although if you're currently working with IE you should probably rethink your life decisions) its important to include fallback content. Without fallback content users will see a blank screen with no additional information, which is no fun.
 
 Let's add a quick fallback line in the event a user is accessing our page through a screen reader or is living in circa 1999 and loves Internet Explorer. Let's also add an `id` to our canvas so we can avoid future ambiguity.
 
