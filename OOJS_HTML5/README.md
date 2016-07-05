@@ -6,8 +6,6 @@
 
 Essentially it let's us specify an area on our HTML page that our JavaScript file can access, giving us a theoretical "canvas".
 
- +++ DRAW HTML PAGE AND JAVASCRIPT PAGE ON WHITEBOARD TO INDICATE COMMUNICATION
-
 In your HTML page, add this code into the `<body>` section.
 
 ```
@@ -78,8 +76,6 @@ Target the element by ID 'main-canvas' on the DOM using JavaScript. Then tell th
 Now its time to start painting. Let's start with a rectangle.
 
 Contrary to how we were told grids work in high school math class, the canvas grid system uses a pixelation scheme that coincides with your browser window. Just like when adjusting margins or positioning of HTML elements, coordinates refer to how far a pixel is from the top left corner of the element.
-
-+++ DRAW GRID ON WHITEBOARD
 
 Step one is to tell the canvas how we want our shape to appear. I want to fill my rectangle with a color, so I'll specify that first, and then tell the canvas where to put it, and how big to make it. Or we can outline a square. Or make it transparent.
 
@@ -240,8 +236,6 @@ requestAnimationFrame(function gameLoop(){
 });
 ```
 
-++++ REVISIT WHERE X IS --> DRAW BOX ON WHITEBOARD AND SKETCH OUT X VALUE and WHY WE ARE CHECKING IT AT 10 etc
-
 ## Object Oriented (newKidsOnThe)Block
 
 Also we will be switching themes a little bit. You're welcome.
@@ -263,7 +257,7 @@ var donnie = new KidOnTheBlock(10, 100, 10, 10);
 
 Cool. Now each block can handle it's own properties (and down the road can be tested as an autonomous entity). Each of the properties associated with the `KidOnTheBlock()` object are unique to that said block. But what about things they all have in common? Both `jordan` and `donnie` should be able to share methods (and dance moves). Enter prototype functions and OOJS at it's finest.
 
-+++ (KidOnThe)Blocks also need to be able to draw themselves onto a canvas, not just exist in the ether. AND maybe some animation would be cool. Ideally they also stay out of jail. (Donnie)
+(KidOnThe)Blocks also need to be able to draw themselves onto a canvas, not just exist in the ether. AND maybe some animation would be cool. Ideally they also stay out of jail. (Donnie)
 
 This is where `Block.prototype` comes in. We want a set of methods to be available to any instance of block so that they can draw and move themselves.
 
