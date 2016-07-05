@@ -407,7 +407,12 @@ In English, we want to add an event listener to the canvas so that on a click ev
 
 ```
 canvas.addEventListener('click', function (event) {
+<<<<<<< HEAD
   console.log('NEW KIDS LYRIC', getClickPosition(event));
+=======
+  var click = getClickPosition(event);
+  console.log(click);
+>>>>>>> 48a6e51ffb9a39dc48bb4968c894abbd5abbabf5
 });
 ```
 
@@ -429,4 +434,8 @@ canvas.addEventListener('click', function (event) {
   - Get the blocks to move back up to the top of the canvas when they hit the bottom. (hint: use negative coordinates)
   - Stop the blocks from falling below the canvas edge
   - Can you make a block land on another block?
+<<<<<<< HEAD
   - What about listening for other (events)[https://developer.mozilla.org/en-US/docs/Web/Events] like keyup, keydown, mouseover, mousemove, or dblclick?
+=======
+  - What about listening for other [events](https://developer.mozilla.org/en-US/docs/Web/Events) like keyup, keydown, mouseover, mousemove, or dblclick?
+>>>>>>> 48a6e51ffb9a39dc48bb4968c894abbd5abbabf5
